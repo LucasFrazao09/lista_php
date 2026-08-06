@@ -1,3 +1,10 @@
+<!-- Uma editora deseja obter algumas informações sobre os textos enviados pelos autores.
+Crie uma função chamada analisarTexto() que receba um texto e retorne:
+● Quantidade de palavras;
+● Quantidade de caracteres;
+● Quantidade de vogais;
+● Quantidade de consoantes. -->
+
 <?php
 
 function analisarTexto(string $texto): array
@@ -19,7 +26,7 @@ function analisarTexto(string $texto): array
     ];
 }
 
-$texto = "A editora avalia textos com muito cuidado.";
+$texto = "Não aguento mais essa matérias";
 $resultado = analisarTexto($texto);
 
 echo "Palavras: " . $resultado['palavras'] . "\n";
